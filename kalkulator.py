@@ -3,4 +3,8 @@ def dodawanie():
     b = int(input('Wprowadz druga liczbe: '))
     print(a+b)
 
+def get_info():
+    print('to jest prosty kalkulator')
+
+get_info()
 dodawanie()
